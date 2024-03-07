@@ -1,0 +1,189 @@
+.body
+{
+    background-color: black;
+}
+.video
+{
+    position: relative;
+    padding-top: 20px;
+    margin:0;
+    width: 1600px;
+    height: 750px;
+
+}
+.box
+{
+    position: absolute;
+    width: 220px;
+    height: 350px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.411);
+    border-radius: 20px;
+    top: 28%;
+    left: 10%;
+    display: inline-block;
+}
+.logo
+{
+    display: inline-block;
+    width: 50px;
+    border: none ;
+    border-radius: 25px;
+    margin-left: 85px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.uname
+{
+    padding: 5%;
+    width: 140px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    opacity: .9;
+    outline: none;
+    margin-left: 28px;
+}
+.pword
+{
+    padding: 5%;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    opacity: .9;
+    outline: none;
+    width: 140px;
+    margin-left: 28px;
+    margin-bottom: 20px;
+}
+.check
+{
+    margin-left: 30px;
+    color: white;
+    border: none;
+}
+.check:hover
+{
+    cursor: pointer;
+}
+.rm
+{
+    color: white;
+    font-family: Arial;
+    font-size: smaller;
+}
+.login
+{
+    background-color: rgb(1, 146, 1);
+    margin: 0;
+    top: 83%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 5%;
+    transition: 0.25s;
+    vertical-align: top;
+    box-shadow: 4px 7px 6px rgba(40, 39, 39,0.25 );
+    cursor: pointer;
+    position: absolute;
+}
+.login:hover  
+{
+    padding-left: 5.5%;
+    padding-bottom: 5.5%;
+    padding-right: 5.5%;
+    background-color: rgb(0, 187, 0);
+}
+.login:active
+{
+    color: rgba(255, 255, 255, 0.489);
+    background-color:  rgb(0, 126, 0);
+}
+.register
+{
+    color: white;
+    margin-left: 30px;
+    font-size: small;
+}
+.toplogo
+{
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    top: 2%;
+    left: 5%;
+}
+.toplogoimg
+{
+    position: absolute;
+    display: inline-block;
+    width: 75px;
+    border-radius: 37.5px;
+}
+.name
+{
+    color: white;
+    font-weight:bolder;
+    font-size:x-large;
+    font-family: cursive;
+    display: inline-block;
+    margin-left: 85px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.tagline
+{
+    display: inline-block;
+    color: rgb(23, 176, 237);
+    font-size: small;
+    font-family:Arial;
+    margin: 0px;
+}
+.box2
+{
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0.5%;
+    left: 92%;
+}
+.insta
+{
+    background-color: rgb(255, 67, 67);
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+}
+.img4
+{
+    width: 32px;
+    border-radius: 6px;
+}
+.box3
+{
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0.5%;
+    left: 95%;
+}
+.x
+{
+    background-color: rgb(255, 67, 67);
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+}
+.xlogo
+{
+    width: 32px;
+    border-radius: 6px;
+}
