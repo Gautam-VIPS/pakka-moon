@@ -1,17 +1,16 @@
-.body
+#body
 {
     background-color: black;
 }
-.video
+#video
 {
     position: relative;
     padding-top: 20px;
     margin:0;
     width: 1600px;
     height: 750px;
-
 }
-.box
+#box
 {
     position: absolute;
     width: 220px;
@@ -22,9 +21,8 @@
     border-radius: 20px;
     top: 28%;
     left: 10%;
-    display: inline-block;
 }
-.logo
+#logo
 {
     display: inline-block;
     width: 50px;
@@ -35,7 +33,7 @@
     margin-bottom: 30px;
 
 }
-.uname
+#uname
 {
     padding: 5%;
     width: 140px;
@@ -47,7 +45,7 @@
     outline: none;
     margin-left: 28px;
 }
-.pword
+#pword
 {
     padding: 5%;
     color: rgb(0, 0, 0);
@@ -59,23 +57,23 @@
     margin-left: 28px;
     margin-bottom: 20px;
 }
-.check
+#check
 {
     margin-left: 30px;
     color: white;
     border: none;
 }
-.check:hover
+#check:hover
 {
     cursor: pointer;
 }
-.rm
+#rm
 {
     color: white;
     font-family: Arial;
     font-size: smaller;
 }
-.login
+#login
 {
     background-color: rgb(1, 146, 1);
     margin: 0;
@@ -94,25 +92,25 @@
     cursor: pointer;
     position: absolute;
 }
-.login:hover  
+#login:hover  
 {
     padding-left: 5.5%;
     padding-bottom: 5.5%;
     padding-right: 5.5%;
     background-color: rgb(0, 187, 0);
 }
-.login:active
+#login:active
 {
     color: rgba(255, 255, 255, 0.489);
     background-color:  rgb(0, 126, 0);
 }
-.register
+#register
 {
     color: white;
     margin-left: 30px;
     font-size: small;
 }
-.toplogo
+#toplogo
 {
     position: absolute;
     display: inline-block;
@@ -121,14 +119,14 @@
     top: 2%;
     left: 5%;
 }
-.toplogoimg
+#toplogoimg
 {
     position: absolute;
     display: inline-block;
     width: 75px;
     border-radius: 37.5px;
 }
-.name
+#name
 {
     color: white;
     font-weight:bolder;
@@ -139,7 +137,7 @@
     margin-top: 15px;
     margin-bottom: 0px;
 }
-.tagline
+#tagline
 {
     display: inline-block;
     color: rgb(23, 176, 237);
@@ -147,7 +145,7 @@
     font-family:Arial;
     margin: 0px;
 }
-.box2
+#box2
 {
     width: 30px;
     display: inline-block;
@@ -155,19 +153,19 @@
     bottom: 0.5%;
     left: 92%;
 }
-.insta
+#insta
 {
     background-color: rgb(255, 67, 67);
     border: none;
     cursor: pointer;
     opacity: 0;
 }
-.img4
+#img4
 {
     width: 32px;
     border-radius: 6px;
 }
-.box3
+#box3
 {
     width: 30px;
     display: inline-block;
@@ -175,15 +173,21 @@
     bottom: 0.5%;
     left: 95%;
 }
-.x
+#x
 {
     background-color: rgb(255, 67, 67);
     border: none;
     cursor: pointer;
     opacity: 0;
 }
-.xlogo
+#xlogo
 {
     width: 32px;
     border-radius: 6px;
+}
+#register-text
+{
+    color: rgb(93, 180, 255);
+    font-family: Arial;
+    font-weight: bold;
 }
