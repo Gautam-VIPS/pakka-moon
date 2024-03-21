@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration</title>
+<style>
+  body 
+  {
+    background-color: black;
+  }
+  .video
+  {
+    position: relative;
+    padding-top: 20px;
+    margin:0;
+    width: 1600px;
+    height: 750px;
+  }
+
+  .registration-box 
+  {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.718);
+    width: 350px;
+    height: 500px;
+    border: 1px solid rgba(160, 160, 160, 0.645);
+    border-radius: 20px;
+    padding: 20px;
+    top: 19%;
+    left: 38%;
+  }
+  .logo1
+  {
+    display: inline-block;
+    width: 80px;
+    border: none ;
+    border-radius: 40px;
+    margin-left: 135px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+
+  input[type="text"], input[type="password"] 
+  {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    outline: none;
+  }
+  input[type="email"]
+  {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    outline: none;
+  }
+
+  input[type="text"]::placeholder, input[type="password"]::placeholder 
+  {
+    color: #999;
+  }
+
+  input[type="submit"] 
+  {
+    margin-left: 120px ;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7017ff;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    outline: none;
+
+  }
+
+  input[type="submit"]:hover 
+  {
+    background-color: #7017ff;
+  }
+
+.toplogo
+{
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    top: 2%;
+    left: 5%;
+}
+.toplogoimg
+{
+    position: absolute;
+    display: inline-block;
+    width: 75px;
+    border-radius: 37.5px;
+}
+.name
+{
+    color: white;
+    font-weight:bolder;
+    font-size:x-large;
+    font-family: cursive;
+    display: inline-block;
+    margin-left: 85px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.tagline
+{
+    display: inline-block;
+    color: rgb(23, 176, 237);
+    font-size: small;
+    font-family:Arial;
+    margin: 0px;
+}
+</style>
+</head>
+<body>
+    <video autoplay loop muted class="video" src="sketch/moon_-_102250 (1080p).mp4"></video>
+  <div class="registration-box">
+    <img class="logo1" src="sketch/logo3.png">
+    <form style="margin-left: 20px;"">
+      <input type="text" name="firstname" placeholder="First Name" required><br>
+      <input type="text" name="lastname" placeholder="Last Name" required><br>
+      <input type="email" name="email" placeholder="Email" required><br>
+      <input type="password" name="password" placeholder="Create Password" required><br>
+      <input type="submit" value="Register">
+    </form>
+  </div>
+<div class="toplogo">
+    <img src="sketch/logo2.png" class="toplogoimg">
+    <div class="name">
+        StellarQuest
+    <div class="tagline">
+        Let's Fly To The moon
+    </div>
+</div> 
+</div> 
+</body>
+</html>
